@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Aldrich", sans-serif;
+}
+.data{
+    padding-top: 20px;
+}
+.icon{
+    gap: 35px;
+    margin: 7%;
+    flex-wrap: wrap;
+    color: grey;
+    font-size: 0.9em;    
+}
+.active{
+    list-style-type: none;
+}
+.row{
+    row-gap: 15px;
+}
+.footer__section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.red{
+    color: red;
+}
+.white{
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
